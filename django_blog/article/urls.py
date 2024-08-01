@@ -3,5 +3,5 @@ from django_blog.article import views
 
 
 urlpatterns = [
-    path('', views.index),
+    path("", views.ArticleIndexView.as_view()),
 ]
